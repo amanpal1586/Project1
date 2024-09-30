@@ -8,6 +8,7 @@ import Dashboard from "./components/Dashboard";
 
 import Footer from "./components/Footer";
 import './App.css'
+import QuestionBox from './components/QuestionBox';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           {/* <Route path="/courses" element={<Courses />} /> */}
           <Route path="/dashboard" element={<Dashboard />} />
           {/* <Route path="/pricing" element={<Pricing />} /> */}
+          <Route path='/questionbox' element={<QuestionBox />} />
         </Routes>
         <Footer />
       </div>
